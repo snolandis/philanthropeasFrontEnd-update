@@ -1,0 +1,40 @@
+div
+<div class="green_container">
+	<div class ="forms">
+		<div>
+			<h3>Create Charity Profile</h3>
+			<form>
+
+				<input class="charityName form-control" type="text" name="charity" placeholder="Charity/Nonprofit Name">
+				<input class="email form-control" type="email" name="email" placeholder="Email">
+				<input class="address form-control" type="text" name="address" placeholder="Office Address">
+				<input class="city form-control" type="text" name="city" placeholder="City">
+				<input class="state form-control" type="text" name="state" placeholder="State">
+				<input class="zip form-control" type="text" name="zip" placeholder="Zip">
+				<input class="dropOff form-control" type="text" name="dropoff" placeholder="Donation Drop-off Address">
+
+				<div class="white_container">
+					<div class="white_box">
+						<p>Choose Charity/Nonprofile Cause:</p>
+						<input class="cause" type="radio" name="cause" value="homeless">Homeless
+						<input class="cause" type="radio" name="cause" value="refugees">Refugees
+						<input class="cause" type="radio" name="cause" value="veterans">Veterans
+						<input class="cause" type="radio" name="cause" value="seniors">Seniors
+						<input class="cause" type="radio" name="cause" value="disaster Relief">Disaster Relief
+						<input class="cause" type="radio" name="cause" value="faith-Based">Faith-Based
+						<input class="cause" type="radio" name="cause" value="na">No Specific Cause
+
+					</div>
+				</div>
+
+				<h4>List of Food Needs:</h4>
+					<textarea class="needs" name="needs" value="" cols="40" rows="8" placeholder="Items you want donated seperated by a comma"></textarea>
+				<h4>List of Food Limitations:</h4>
+					<textarea class="limitations" name="limitations" value="" cols="40" rows="8" placeholder="Items you don't want donated seperated by a comma"></textarea>
+				<h4>Special Instructions</h4>
+					<textarea class="instructions" name="instructions" value="" cols="40" rows="8" placeholder="Special Instructions"></textarea>
+				<input type="submit" id="newcharity" value="CREATE!">
+			</form>
+		</div>
+	</div>
+</div>

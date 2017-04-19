@@ -1,0 +1,15 @@
+#map {
+        height: 100%;
+        width: 75%;
+        float: right;
+      }
+
+.mapped_results {
+        margin-left: 50px;
+}
+      /* Optional: Makes the sample page fill the window. */
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="initial-scale=1.0">
+    <meta charset="utf-8">
+    <title>Search Results</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/maps.css">
+  </head>
+  <body>
+    <h1>Your Matches!</h1>
+    <h3>"Number of searches for *this* zip code"</h3>
+
+    <div class="allcharities">
+      <button type="button" name="button">Browse all charities in your area!</button>
+    </div>
+
+    <div id="map"></div>
+
+    <div class="filters">
+      <h2>Filters</h2>
+      <p>Search Distance:</p>
+      <input type="radio" name="" value="5 kilometers"> 5km <br/>
+      <input type="radio" name="" value="20 kilometers"> 20km <br/>
+      <input type="radio" name="" value="50 kilometers"> 50km <br/>
+
+      <p>Causes:</p>
+      <input type="radio" name="" value="Homeless"> Homeless <br/>
+      <input type="radio" name="" value="Veterans"> Veterans <br/>
+      <input type="radio" name="" value="Seniors"> Seniors <br/>
+      <input type="radio" name="" value="Disaster-Relief"> Disaster-Relief <br/>
+      <input type="radio" name="" value="Refugee"> Refugee <br/>
+      <input type="radio" name="" value="Faith-Based"> Faith-Based <br/>
+    </div>
+
+    <div class="mapped-results">
+      <!--A list of the results from the mapping-->
+    </div>
+  </body>
+  <script src="javascript/maps.js"></script>
+  <!-- <script type="text/javascript"
+  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD4rJmzrWhJYgT5eqlyt9fCmy2EzsnZBlY&libraries=places">
+</script> -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyASL1Fd7PlhqHDhjAVSYqRx6LX295yJNnU&libraries=places,visualization&callback=initMap"
+    async defer></script>
+</html>

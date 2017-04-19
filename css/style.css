@@ -1,0 +1,538 @@
+/*index*/
+
+header {
+    padding-top: 10px;
+}
+
+.logo1 {
+    margin-left: 50px;
+}
+
+.profile {
+    margin-right: 50px;
+    float: right;
+}
+
+.searchbar {
+    width: 300px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.main_container {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.blue_banner {
+    text-align: center;
+    background-color: #6A8EAE;
+    height: 60px;
+}
+
+.first_h1 {
+    font-size: 32px;
+    padding: 12px;
+}
+
+/*index*/
+.main_image {
+    background-image: url("../images/web_images/carrots_tomatoes.jpg");
+    height: 350px;
+    background-size: cover;
+    background-position: center;
+    padding-top: 55px;
+}
+
+/*newaccount*/
+.donorcharity {
+    background-image: url("../images/web_images/carrots_tomatoes.jpg");
+    height: 350px;
+    background-size: cover;
+    background-position: center;
+    padding-top: 55px;
+}
+
+.dc_btn {
+    text-align: center;
+    margin-top: 40px;
+    padding-top: 50px;
+}
+
+ /*new account dc btns*/
+.dochar_btn {
+    font-size: 55px;
+    margin: auto;
+    margin-bottom: 25px;
+    width: 220px;
+    height: 180px;
+    padding: 2px;
+    display: inline;
+    text-transform: capitalize;
+    border-radius: 7px;
+    position: relative;
+    background-color: #9bd1e5;
+    opacity: .8
+}
+
+.dochar_btn2 {
+    font-size: 55px;
+    margin: auto;
+    margin-bottom: 25px;
+    width: 220px;
+    height: 180px;
+    padding: 2px;
+    display: inline;
+    text-transform: capitalize;
+    border-radius: 7px;
+    position: relative;
+    background-color: #57a773;
+    opacity: .8
+}
+
+
+
+.image_1 {
+    text-align: center;
+    margin-top: 125px;
+}
+
+.main_btn {
+    font-size: 26px;
+    margin: auto;
+    margin-bottom: 25px;
+    width: 175px;
+    padding: 2px;
+    display: block;
+    text-transform: capitalize;
+    border-radius: 7px;
+    position: relative;
+    background-color: lightgray;
+}
+
+.main_btn1 {
+    font-size: 20px;
+    margin: auto;
+    margin-bottom: 25px;
+    width: 90px;
+    padding: 2px;
+    display: block;
+    text-transform: capitalize;
+    border-radius: 7px;
+    position: relative;
+    background-color: #d1faff;
+}
+
+.main_btn2 {
+    font-size: 20px;
+    margin: auto;
+    margin-bottom: 25px;
+    width: 90px;
+    padding: 5px;
+    display: block;
+    text-transform: capitalize;
+    border-radius: 7px;
+    position: relative;
+    background-color: #57a773;
+}
+
+
+.featured_home {
+    margin: 0 auto;
+    margin-top: 15px;
+    border-radius: 10px;
+    background-color: #57a773;
+    height: 720px;
+    background-position: center;
+    padding: 20px;
+    padding-top: 5px;
+    text-align: center;
+}
+
+.feat_charity {
+    background-color: #d1faff;
+    border-radius: 10px;
+    height: 220px;
+    padding: 20px;
+}
+
+.desc {
+    font-size: 18px;
+    margin-right: auto;
+    margin-left: 200px;
+    text-align: left;
+}
+
+.cap {
+    float: left;
+    padding: 20px
+}
+
+.food_bank_box {
+    float: left;
+}
+
+.heads {
+    margin: 10px;
+}
+
+.word_heads {
+    display: inline;
+    margin-right: 2%;
+    margin-left: 75px;
+}
+
+.word_heads2 {
+    display: inline;
+    margin-left: 50%;
+}
+
+
+.tipssection {
+    text-align: left;
+    padding: 20px;
+    padding-top: 0;
+    float: left;
+    width: 61%;
+    background-color: #d1faff;
+    border-radius: 10px;
+}
+
+.inner_cont1 {
+    display: inline-block;
+}
+
+.inner_cont2 {
+    display: inline-block;
+    float: right;
+}
+
+.inner_cont3 {
+    font-size: 16px;
+    text-align: center;
+    padding: 20px;
+    float: right;
+    width: 38%;
+    background-color: #d1faff;
+    border-radius: 10px;
+}
+
+.peas {
+    float: right;
+}
+
+.peas_smile {
+    float: right;
+    margin-right: 70px;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 36px;
+    background-color: white;
+    width: 325px;
+    height: 110px;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+/*title {
+  font-family: 'Droid Sans', sans-serif;
+  color: #00000B;
+  font-size: 36px;
+  line-height: 1;
+}
+
+h1 {
+  font-family: 'Droid Sans', sans-serif;
+  color: #00000B;
+  font-size: 30px;
+  text-transform: uppercase;
+  line-height: 1;
+  padding: 20px 0px;
+
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Droid Sans', sans-serif;
+  color: #00000B;
+  font-size: 24px;
+  line-height: 1;
+}
+
+h3 {
+  font-family: 'PT Sans', sans-serif;
+  color: #00000B;
+  font-size: 18px;
+  line-height: 1;
+}
+
+h4 {
+  font-family: 'PT Sans', sans-serif;
+  color: #00000B;
+  font-size: 25px;
+  line-height: 1;
+}
+
+h5 {
+  font-family: 'PT Sans', sans-serif;
+  color: #00000B;
+  font-size: 16px;
+  line-height: 1;
+}
+
+p {
+  font-family: 'Droid Sans', sans-serif;
+  color: #00000B;
+  font-size: 12px;
+  line-height: 1;
+}
+
+form {
+    width: 50%;
+    margin: 0 auto;
+}
+
+input, textarea {
+    display: block;
+    width: 100%;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 3px;
+}*/
+/*----TempCSS---*/
+/*nav {
+    display: inline-block;
+}
+
+.unmark {
+  list-style-type: none;
+}
+
+.word_heads {
+  font-size: 25px;
+  text-decoration: underline;
+
+}*/
+
+
+/*-------------- Home updated ----------------*/
+
+/*.blue {
+  background-color: #6A8EAE;
+  height: 70px;
+}
+
+.avatar {
+  height: 50px;
+  width: 50px;
+}
+
+.profile {
+  float: right;
+  display: inline;
+}
+.banner {
+  font-size: 20px;
+  text-align: center;
+}
+
+.forms {*/
+    /*email / password*/
+    /*border-radius: 15px;
+}
+
+.button_box {
+    background-image: url("../images/web_images/carrots_tomatoes.jpg");
+    margin: auto;
+    height: 350px;
+    background-size: cover;
+    background-position: center;
+    border-bottom: 2px solid black;
+}
+
+.btn-login {
+     background-color: #6A8EAE;
+     padding: 15px;
+     font-family: 'Droid Sans', sans-serif;
+     color: #00000B;
+     font-size: 24px;
+     line-height: 1;
+     border-radius: 10px;
+     margin: 130px;
+     margin-left: 650px;
+}
+
+.featured_home {
+  background-color: #57A773;
+  text-align: center;
+  border-bottom: 2px solid black;
+  border-radius: 5px;
+}
+
+.feat_charity {
+  background-color: #6A8EAE;
+}
+
+.food_bank_box {
+  display: inline;
+  margin: 20px;
+  width: 150px;
+  margin-left: 50px
+
+}
+
+.desc {
+  font-size: 18px;
+  display: inline-block;
+
+}*/
+
+/*formerly featured*/
+/*.outer_container {
+    text-align: center;
+    background-color: #57A773;
+    /*padding-top: 2px;*/
+}
+
+/*container colors and radius*/
+/*.inner_containers {
+    margin: 30px;
+    margin-top: 0px;
+    padding: 15px;
+}*/
+
+/*boxes will vary and same content */
+/*.inner_content {
+    text-align: left;
+    margin: 10px;
+    background-color: #6A8EAE;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.tipssection {
+    display: inline-block;
+    margin: 10px;
+    text-align: left;
+    width: 45%;
+}
+
+.inner_cont {
+    text-align: left;
+    margin: 10px;
+    background-color: #6A8EAE;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.donations {
+    display: inline;
+    width: 100%;
+    text-align: left;
+}
+
+.green_container {
+    background-color: #57A773;
+    opacity: 0.6;
+    margin-left: 35px;
+    margin-right: 35px;
+    border-radius: 10px;
+}
+
+.white_box {
+    background-color: white;
+    display: inline-block;
+    width: 40%;
+    height: 30%;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 15px;
+    text-transform: uppercase;
+}
+
+
+.social_media {
+    padding-bottom: 25px;
+    margin: 0px 35px;
+}
+
+.peas {
+    float: right;
+    margin: auto;
+}*/
+
+/*-------------- New Account ----------------*/
+
+/*.main_box {
+text-align: center;
+padding: 50px 50px 20px 50px;
+padding-left: 12%;
+display: inline-block;
+
+}
+
+.main_box_btns {
+text-align: center;
+display: inline;
+}
+
+.donor_login {
+
+    text-align: center;
+    font-size: 28px;
+    background-color: #57A773;
+    opacity: 0.8;
+    height: 175px;
+    width: 325px;
+    border-radius: 15px;
+    margin: 40px;
+    padding: 10px;
+    display: inline-block;
+}
+
+.charity_login {
+    text-align: center;
+    font-size: 28px;
+    background-color: #9BD1E5;
+    opacity: 0.8;
+    height: 175px;
+    width: 325px;
+    border-radius: 15px;
+    margin: 40px;
+    padding: 10px;
+    display: inline-block;
+}*/
+
+
+
+/*-------------- New Charity ----------------*/
+
+
+/*input[type=text] {
+    border: 2px solid gray;
+    border-radius: 10px;
+    text-transform: uppercase;
+}
+
+input[type=radio] {
+    border: 2px solid gray;
+    border-radius: 10px;
+    text-transform: uppercase;
+
+}
+
+input[type=email] {
+    border: 2px solid gray;
+    border-radius: 10px;
+    text-transform: uppercase;
+
+}*/

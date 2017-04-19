@@ -1,0 +1,86 @@
+
+<!--     <div class="green_container">
+    <h1>Your Matches!</h1>
+
+    <h3>"Number of searches for *this* zip code"</h3>
+
+    <div class="allcharities">
+      Decide if to keep this since it's embedded-->
+     <!--  <button type="button" name="button">Browse all charities in your area!</button>
+    </div>
+
+    <div class="white_box">
+      <h2>Filters</h2>
+      <p>Search Distance:</p>
+      <input type="radio" name="" value="5 kilometers"> 5km <br/>
+      <input type="radio" name="" value="20 kilometers"> 20km <br/>
+      <input type="radio" name="" value="50 kilometers"> 50km <br/>
+
+      <p>Causes:</p>
+      <input type="radio" name="" value="Homeless"> Homeless <br/>
+      <input type="radio" name="" value="Veterans"> Veterans <br/>
+      <input type="radio" name="" value="Seniors"> Seniors <br/>
+      <input type="radio" name="" value="Disaster-Relief"> Disaster-Relief <br/>
+      <input type="radio" name="" value="Refugee"> Refugee <br/>
+      <input type="radio" name="" value="Faith-Based"> Faith-Based <br/>
+    </div>
+ -->
+<div class="green_container">
+<!--embedded google map api-->
+<button type="button" name="Browse" id="landing">Back to profile</button>
+
+<input type="text" class="form-control" placeholder="Search">
+    <div id="map">
+      <iframe
+  width="600"
+  height="450"
+  frameborder="0" style="border:0"
+  src="https://www.google.com/maps/embed/v1/search?key=AIzaSyAXVxpT12eAXUoamiKlx5NrX1muVDl57Ks&q=food+donation+centers+in+Austin+TX" allowfullscreen>
+</iframe>
+    </div>
+
+    <div class="mapped-results">
+      <!--A list of the results from the mapping-->
+      <div id="result1">
+        <img src="" alt="">
+        <h2>Angel House Soup Kitchen</h2>
+        <li>Drop-Off Location:</li>
+        <li>908 E Cesar Chavez St.</li>
+        <li>Austin, TX 78702</li>
+        <li>Phone: (512) 751-2002</li>
+        <li>Hours: N/A</li>
+      </div>
+      <div id="result2">
+        <!--for images on side of dive-->
+        <img src="" alt="">
+        <!--^-->
+        <h2>Feeding Texas</h2>
+        <li>Drop-Off Location:</li>
+        <li>1524 South I H 35 #342</li>
+        <li>Austin, TX 78704</li>
+        <li>Phone: (512) 527-3613</li>
+        <li>Hours: M-Th 8:30AM-5:00PM Fri 9:00AM-3PM</li>
+      </div>
+      <div id="result3">
+        <img src="" alt="">
+        <h2>Central Texas Food Bank</h2>
+        <li>Drop-Off Location:</li>
+        <li>6500 Metropolis Dr.</li>
+        <li>Austin, TX 78744</li>
+        <li>Phone: (512) 282-2111</li>
+        <li>Hours: M-F 8:00AM-5:00PM</li>
+      </div>
+      <div id="result4">
+        <img src="" alt="">
+        <h2>Hope Food Pantry Austin</h2>
+        <li>Drop-Off Location:</li>
+        <li>4001 Speedway</li>
+        <li>Austin, TX 78751</li>
+        <li>Phone:(312) 623-7664</li>
+        <li>Hours: N/A</li>
+      </div>
+
+    </div>
+</div>
+
+<script src="javascript/maps.js"></script>
